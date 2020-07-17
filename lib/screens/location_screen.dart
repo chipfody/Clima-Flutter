@@ -74,3 +74,8 @@ class _LocationScreenState extends State<LocationScreen> {
     );
   }
 }
+
+//double temperature = decodeData['main']['temp'];
+//int condition = decodeData['weather'][0]['id']; // we add the [0] b/c looking at the JSON we see an unknown
+////                                              (and unclear) list so have to access the first item, which gives the data
+//String cityName = decodeData['name'];
